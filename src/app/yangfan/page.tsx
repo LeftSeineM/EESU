@@ -16,7 +16,7 @@ export default function YangfanPage() {
         <div className="terminal-panel overflow-hidden rounded-md">
           <div className="relative aspect-[16/10] bg-black">
             <img
-              src={sitePath("/yangfan/yangfan-icebreaking.jpeg")}
+              src={sitePath("/yangfan/optimized/yangfan-icebreaking.jpg")}
               alt="扬帆计划奥森破冰会合照"
               className="absolute inset-0 h-full w-full object-cover"
             />

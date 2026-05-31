@@ -41,7 +41,7 @@ export const sourceNotes = [
 ];
 
 export const unionStats = [
-  { label: "四个大家庭", value: "4", hint: "文艺、体育、联络、全发" },
+  { label: "四个大家庭", value: "4", hint: "文艺、体育、联络、权发" },
   { label: "记录维度", value: "6", hint: "舞台、赛事、交流、成长、学代会、荣誉" },
   { label: "资料来源", value: "3", hint: "官网页面、组织目录、宣传资料" },
   { label: "旧站保留", value: "1", hint: "EELL 联络中心专题归档" }
@@ -76,8 +76,8 @@ export const unionCenters = [
     tags: ["名企微体验", "期末福袋", "微沙龙", "学代会"]
   },
   {
-    title: "Holistic Development Center",
-    zhTitle: "学生全发中心",
+    title: "Rights & Development Center",
+    zhTitle: "学生权发中心",
     href: "/development",
     icon: ChartNoAxesCombined,
     image: "/activities/festival-group.webp",
@@ -158,14 +158,14 @@ export const liaisonHighlights = [
 export const developmentHighlights = [
   "关注同学的全面发展，把学习生活、成长体验和公共反馈纳入学生会记录。",
   "承接权益反馈、课程研讨、师生沟通等工作，让学生声音被看见、被回应、被留下。",
-  "作为四个大家庭之一，全发中心补足荣誉展示墙中关于成长、服务和长期建设的维度。"
+  "作为四个大家庭之一，权发中心补足荣誉展示墙中关于权益、成长、服务和长期建设的维度。"
 ];
 
 export const archiveTimeline = [
   { time: "Stage", title: "文艺舞台", description: "学生节、系歌赛和舞会把电子系同学的故事带到舞台中央。", icon: GalleryHorizontalEnd },
   { time: "Field", title: "体育赛场", description: "从系内赛事到马约翰杯，体育中心持续记录运动风采。", icon: Trophy },
   { time: "Link", title: "联络现场", description: "企业参访、福利支持和学代会筹办构成联络中心的工作底色。", icon: RadioTower },
-  { time: "Growth", title: "全发成长", description: "权益反馈、成长支持与师生沟通补全学生会的服务闭环。", icon: ChartNoAxesCombined }
+  { time: "Rights", title: "权发成长", description: "权益反馈、成长支持与师生沟通补全学生会的服务闭环。", icon: ChartNoAxesCombined }
 ];
 
 export const oldArchiveCards = [

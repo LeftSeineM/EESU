@@ -1,6 +1,7 @@
 import { ExternalLink, Handshake } from "lucide-react";
 import { PageShell } from "@/components/page-shell";
 import { featureStories, liaisonHighlights, oldArchiveCards, oldLiaisonSiteUrl } from "@/data/student-union";
+import { sitePath } from "@/lib/paths";
 
 export default function LiaisonPage() {
   const stories = featureStories.filter((story) => story.type === "联络中心");
@@ -35,7 +36,7 @@ export default function LiaisonPage() {
           {stories.map((story) => (
             <article key={story.title} className="terminal-panel overflow-hidden rounded-md">
               <div className="relative aspect-[16/10]">
-                <img src={story.image} alt={story.title} className="absolute inset-0 h-full w-full object-cover" />
+                <img src={sitePath(story.image)} alt={story.title} className="absolute inset-0 h-full w-full object-cover" />
                 <div className="absolute inset-0 bg-gradient-to-t from-black via-black/20 to-transparent" />
               </div>
               <div className="p-5">
@@ -49,7 +50,7 @@ export default function LiaisonPage() {
 
       <section className="mt-8 grid gap-4 md:grid-cols-3">
         {oldArchiveCards.map((card) => (
-          <a key={card.title} href={card.href} className="terminal-panel rounded-md p-5 transition hover:-translate-y-1 hover:border-thu-neon/60">
+          <a key={card.title} href={card.href.startsWith("/") ? sitePath(card.href) : card.href} className="terminal-panel rounded-md p-5 transition hover:-translate-y-1 hover:border-thu-neon/60">
             <card.icon className="h-6 w-6 text-thu-neon" />
             <h2 className="mt-4 font-mono text-lg font-semibold text-white">{card.title}</h2>
             <p className="mt-2 text-sm leading-6 text-slate-300">{card.description}</p>

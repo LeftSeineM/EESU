@@ -1,6 +1,7 @@
 import { CheckCircle2 } from "lucide-react";
 import { PageShell } from "@/components/page-shell";
 import { archiveTimeline, featureStories } from "@/data/student-union";
+import { sitePath } from "@/lib/paths";
 
 export default function ActivitiesPage() {
   return (
@@ -31,7 +32,7 @@ export default function ActivitiesPage() {
           <article key={story.title} className="terminal-panel overflow-hidden rounded-md">
             <div className="relative flex aspect-[16/9] items-end overflow-hidden border-b border-thu-neon/15 bg-black">
               <img
-                src={story.image}
+                src={sitePath(story.image)}
                 alt={story.title}
                 loading="lazy"
                 decoding="async"

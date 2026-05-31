@@ -1,5 +1,6 @@
 import {
   Archive,
+  Anchor,
   BadgeCheck,
   Building2,
   CalendarDays,
@@ -42,9 +43,9 @@ export const sourceNotes = [
 
 export const unionStats = [
   { label: "四个大家庭", value: "4", hint: "文艺、体育、联络、权发" },
-  { label: "记录维度", value: "6", hint: "舞台、赛事、交流、成长、学代会、荣誉" },
+  { label: "记录维度", value: "7", hint: "舞台、赛事、交流、成长、实践、学代会、荣誉" },
   { label: "资料来源", value: "3", hint: "官网页面、组织目录、宣传资料" },
-  { label: "旧站保留", value: "1", hint: "EELL 联络中心专题归档" }
+  { label: "专题主页", value: "2", hint: "EELL 联络专题与扬帆计划主页" }
 ];
 
 export const unionCenters = [
@@ -120,6 +121,14 @@ export const featureStories = [
     sourceCaption: "官网配图含名企微体验活动。"
   },
   {
+    title: "扬帆计划",
+    type: "联络中心",
+    icon: Anchor,
+    image: "/yangfan/yangfan-icebreaking.jpeg",
+    description: "面向电子系学生骨干的长期培养项目，从社工启蒙、社会认知到实践锻炼，记录一代代同学共同成长的航迹。",
+    sourceCaption: "素材来自《扬帆十一期总结》PPT，包含发展历程、培养方案、十一期活动回顾和实践数据。"
+  },
+  {
     title: "期末福袋与生活福利",
     type: "联络中心",
     icon: PartyPopper,
@@ -135,6 +144,38 @@ export const featureStories = [
     description: "联络中心协助筹办学生代表大会，服务代表建言献策和学生会换届流程。",
     sourceCaption: "官网配图含清华大学电子工程系学生代表大会。"
   }
+];
+
+export const yangfanStats = [
+  { label: "发展期数", value: "11", hint: "从 2015 年扬帆一期到第十一期" },
+  { label: "启航年份", value: "2015", hint: "建立骨干培养框架" },
+  { label: "实践支队", value: "9", hint: "乡村振兴、产业认知、志愿支教" },
+  { label: "培养维度", value: "7", hint: "社工启蒙、社会认知、个性发展、通识素养、团队建设、社工实践、社工能力" }
+];
+
+export const yangfanTimeline = [
+  { time: "2015", title: "扬帆一期", description: "建立培养框架，强调学生骨干属性。" },
+  { time: "2017", title: "学生小导", description: "设立学生小导机制，加强传承、陪伴和反馈。" },
+  { time: "2018", title: "计划组成立", description: "设立扬帆计划组，推动招募、培养和活动组织规范化。" },
+  { time: "2022", title: "规范结业", description: "加强学生组织合作，面向优秀社工人才和学生骨干培养。" },
+  { time: "2025", title: "十期革新", description: "轻量化、优质化革新，加强团队凝聚力。" },
+  { time: "2026", title: "十一期收束", description: "围绕真实需求、实践锻炼和长期成长完成阶段总结。" }
+];
+
+export const yangfanActivities = [
+  { title: "团队建设", detail: "奥森破冰会、扬帆小队、男生节与女生节活动，让学员在共同经历中建立连接。" },
+  { title: "社工培养", detail: "例会旁听、例餐交流、社工经历分享和社工技能分享，帮助同学理解学生工作的真实现场。" },
+  { title: "实践锻炼", detail: "暑期“微光”实践、实践微沙龙、实践科研分享和实践收获交流会，把能力训练落到行动里。" },
+  { title: "成长表达", detail: "中期总结交流、寒假实践交流、年会和结业展示，沉淀每位同学的反思与荣誉。" }
+];
+
+export const yangfanGallery = [
+  { src: "/yangfan/yangfan-logo.jpeg", title: "扬帆计划视觉标识", caption: "以帆船、浪花和电子元素构成的项目记忆点。" },
+  { src: "/yangfan/yangfan-icebreaking.jpeg", title: "奥森破冰会", caption: "第十一期学员在春天完成第一次集体亮相。" },
+  { src: "/yangfan/yangfan-classroom.jpeg", title: "例餐与交流", caption: "围绕社工经历、真实需求和反馈机制持续交流。" },
+  { src: "/yangfan/yangfan-dinner.jpeg", title: "扬帆例餐", caption: "小规模、高密度的交流场景，让经验在饭桌边传递。" },
+  { src: "/yangfan/yangfan-sharing.jpeg", title: "分享现场", caption: "实践、科研和社工经验在同伴之间被讲述和继承。" },
+  { src: "/yangfan/yangfan-team-night.jpeg", title: "扬帆小队", caption: "小队活动增强凝聚力，也保留轻松真诚的集体瞬间。" }
 ];
 
 export const artsHighlights = [

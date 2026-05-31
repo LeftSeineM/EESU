@@ -2,6 +2,7 @@ import Link from "next/link";
 import { ArrowRight, ExternalLink, RadioTower, ShieldCheck } from "lucide-react";
 import { SiteHeader } from "@/components/site-header";
 import { featureStories, officialStudentUnionUrl, siteName, unionCenters, unionStats } from "@/data/student-union";
+import { sitePath } from "@/lib/paths";
 
 export default function Home() {
   return (
@@ -42,7 +43,7 @@ export default function Home() {
 
           <div className="terminal-panel overflow-hidden rounded-md">
             <div className="relative aspect-[4/3]">
-              <img src="/activities/festival-roadshow.webp" alt="学生会活动展示" className="absolute inset-0 h-full w-full object-cover" />
+              <img src={sitePath("/activities/festival-roadshow.webp")} alt="学生会活动展示" className="absolute inset-0 h-full w-full object-cover" />
               <div className="absolute inset-0 bg-gradient-to-t from-black via-black/30 to-transparent" />
               <div className="absolute bottom-0 left-0 right-0 p-5">
                 <div className="inline-flex items-center gap-2 border border-thu-neon/30 bg-black/55 px-3 py-1 font-mono text-xs uppercase text-thu-neon">
@@ -73,7 +74,7 @@ export default function Home() {
           {unionCenters.map((center) => (
             <Link key={center.title} href={center.href} className="terminal-panel group grid overflow-hidden rounded-md transition hover:-translate-y-1 hover:border-thu-neon/60 lg:grid-cols-[0.9fr_1.1fr]">
               <div className="relative min-h-[220px]">
-                <img src={center.image} alt={center.zhTitle} className="absolute inset-0 h-full w-full object-cover" />
+                <img src={sitePath(center.image)} alt={center.zhTitle} className="absolute inset-0 h-full w-full object-cover" />
                 <div className="absolute inset-0 bg-black/25 transition group-hover:bg-black/10" />
               </div>
               <div className="p-5">
@@ -108,7 +109,7 @@ export default function Home() {
           {featureStories.map((story) => (
             <article key={story.title} className="terminal-panel overflow-hidden rounded-md">
               <div className="relative aspect-[16/10]">
-                <img src={story.image} alt={story.title} className="absolute inset-0 h-full w-full object-cover" />
+                <img src={sitePath(story.image)} alt={story.title} className="absolute inset-0 h-full w-full object-cover" />
                 <div className="absolute inset-0 bg-gradient-to-t from-black via-black/15 to-transparent" />
                 <div className="absolute bottom-4 left-4">
                   <story.icon className="h-6 w-6 text-thu-neon" />

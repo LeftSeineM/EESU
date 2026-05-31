@@ -1,6 +1,7 @@
 import { Music4 } from "lucide-react";
 import { PageShell } from "@/components/page-shell";
 import { artsHighlights, featureStories } from "@/data/student-union";
+import { sitePath } from "@/lib/paths";
 
 export default function ArtsPage() {
   const stories = featureStories.filter((story) => story.type === "文艺中心");
@@ -28,7 +29,7 @@ export default function ArtsPage() {
           {stories.map((story) => (
             <article key={story.title} className="terminal-panel overflow-hidden rounded-md">
               <div className="relative aspect-[16/10]">
-                <img src={story.image} alt={story.title} className="absolute inset-0 h-full w-full object-cover" />
+                <img src={sitePath(story.image)} alt={story.title} className="absolute inset-0 h-full w-full object-cover" />
                 <div className="absolute inset-0 bg-gradient-to-t from-black via-black/20 to-transparent" />
               </div>
               <div className="p-5">

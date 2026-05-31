@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "清华大学电子系学生会联络中心资源服务平台",
-  description: "连接资源，服务同学，展示联络中心工作成果。"
+  title: "EE Student Union",
+  description: "清华大学电子系学生会活动记录与展示网站。"
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {

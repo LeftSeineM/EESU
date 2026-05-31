@@ -1,5 +1,6 @@
 import type { ReactNode } from "react";
 import { SiteHeader } from "@/components/site-header";
+import { siteName } from "@/data/student-union";
 
 type PageShellProps = {
   eyebrow: string;
@@ -24,15 +25,15 @@ export function PageShell({ eyebrow, title, description, children, aside }: Page
           {aside ?? (
             <>
               <div className="font-mono text-xs uppercase tracking-[0.22em] text-thu-neon">page status</div>
-              <div className="mt-4 text-2xl font-semibold text-white">Prototype</div>
-              <p className="mt-3 text-sm leading-6 text-slate-400">静态页面原型，数据来自 mock data，已按后续接入数据库的结构组织。</p>
+              <div className="mt-4 text-2xl font-semibold text-white">Archive</div>
+              <p className="mt-3 text-sm leading-6 text-slate-400">展示型静态页面，资料来自电子系官网公开页面与已整理活动素材。</p>
             </>
           )}
         </aside>
       </section>
       <section className="relative mx-auto max-w-7xl px-4 pb-20 sm:px-6 lg:px-8">{children}</section>
       <footer className="border-t border-thu-neon/15 px-4 py-8 text-center font-mono text-xs uppercase tracking-[0.18em] text-slate-500">
-        EE Contact Center Resource Platform · 2026 Prototype
+        {siteName} · Activity Archive · 2026
       </footer>
     </main>
   );

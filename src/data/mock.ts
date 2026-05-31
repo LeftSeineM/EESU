@@ -22,13 +22,11 @@ import {
 
 export const navItems = [
   { label: "首页", href: "/" },
-  { label: "新生服务", href: "/freshman" },
-  { label: "名企微体验", href: "/company-visit" },
-  { label: "毕业生服务", href: "/graduation" },
-  { label: "企业交流", href: "/cooperation" },
-  { label: "资源展示墙", href: "/resources" },
   { label: "活动档案", href: "/activities" },
-  { label: "关于我们", href: "/about" }
+  { label: "文艺中心", href: "/arts" },
+  { label: "体育中心", href: "/sports" },
+  { label: "联络中心", href: "/liaison" },
+  { label: "资料来源", href: "/sources" }
 ];
 
 export const stats = [

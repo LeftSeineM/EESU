@@ -1,0 +1,10 @@
+.next/
+node_modules/
+out/
+
+*.log
+cloudflared-*.yml
+
+.env
+.env*.local
+*.tsbuildinfo

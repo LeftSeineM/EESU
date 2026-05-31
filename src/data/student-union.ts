@@ -124,7 +124,7 @@ export const featureStories = [
     title: "扬帆计划",
     type: "联络中心",
     icon: Anchor,
-    image: "/yangfan/yangfan-icebreaking.jpeg",
+    image: "/yangfan/optimized/yangfan-icebreaking.jpg",
     description: "面向电子系学生骨干的长期培养项目，从社工启蒙、社会认知到实践锻炼，记录一代代同学共同成长的航迹。",
     sourceCaption: "素材来自《扬帆十一期总结》PPT，包含发展历程、培养方案、十一期活动回顾和实践数据。"
   },
@@ -170,19 +170,19 @@ export const yangfanActivities = [
 ];
 
 export const yangfanGallery = [
-  { src: "/yangfan/yangfan-logo.jpeg", title: "扬帆计划视觉标识", caption: "以帆船、浪花和电子元素构成的项目记忆点。" },
-  { src: "/yangfan/yangfan-shirt.png", title: "扬帆纪念衫", caption: "把项目视觉落到可穿戴的集体纪念物上。" },
-  { src: "/yangfan/yangfan-icebreaking.jpeg", title: "奥森破冰会", caption: "第十一期学员在春天完成第一次集体亮相。" },
-  { src: "/yangfan/yangfan-classroom.jpeg", title: "例餐与交流", caption: "围绕社工经历、真实需求和反馈机制持续交流。" },
-  { src: "/yangfan/yangfan-dinner.jpeg", title: "扬帆例餐", caption: "小规模、高密度的交流场景，让经验在饭桌边传递。" },
-  { src: "/yangfan/yangfan-sharing.jpeg", title: "分享现场", caption: "实践、科研和社工经验在同伴之间被讲述和继承。" },
-  { src: "/yangfan/yangfan-workshop.jpeg", title: "工作坊合影", caption: "阶段性培训和专题讨论后的集体记录。" },
-  { src: "/yangfan/yangfan-cohort.jpeg", title: "学员合照", caption: "把一整期扬帆同学的相遇与同行存进档案。" },
-  { src: "/yangfan/yangfan-sunshine-room.jpeg", title: "阳光同行", caption: "班团活动空间里的团队建设和主题交流。" },
-  { src: "/yangfan/yangfan-seminar.jpeg", title: "专题研讨", caption: "围绕培养方案、技术工具和学生工作经验展开讨论。" },
-  { src: "/yangfan/yangfan-practice.jpeg", title: "微光实践", caption: "扬帆计划赴安徽金寨支教支队的实践合影。" },
-  { src: "/yangfan/yangfan-micro-salon.jpeg", title: "实践微沙龙", caption: "行前、行后交流把实践经验转化为可传承的方法。" },
-  { src: "/yangfan/yangfan-team-night.jpeg", title: "扬帆小队", caption: "小队活动增强凝聚力，也保留轻松真诚的集体瞬间。" }
+  { src: "/yangfan/optimized/yangfan-logo.jpg", title: "扬帆计划视觉标识", caption: "以帆船、浪花和电子元素构成的项目记忆点。" },
+  { src: "/yangfan/optimized/yangfan-shirt.jpg", title: "扬帆纪念衫", caption: "把项目视觉落到可穿戴的集体纪念物上。" },
+  { src: "/yangfan/optimized/yangfan-icebreaking.jpg", title: "奥森破冰会", caption: "第十一期学员在春天完成第一次集体亮相。" },
+  { src: "/yangfan/optimized/yangfan-classroom.jpg", title: "例餐与交流", caption: "围绕社工经历、真实需求和反馈机制持续交流。" },
+  { src: "/yangfan/optimized/yangfan-dinner.jpg", title: "扬帆例餐", caption: "小规模、高密度的交流场景，让经验在饭桌边传递。" },
+  { src: "/yangfan/optimized/yangfan-sharing.jpg", title: "分享现场", caption: "实践、科研和社工经验在同伴之间被讲述和继承。" },
+  { src: "/yangfan/optimized/yangfan-workshop.jpg", title: "工作坊合影", caption: "阶段性培训和专题讨论后的集体记录。" },
+  { src: "/yangfan/optimized/yangfan-cohort.jpg", title: "学员合照", caption: "把一整期扬帆同学的相遇与同行存进档案。" },
+  { src: "/yangfan/optimized/yangfan-sunshine-room.jpg", title: "阳光同行", caption: "班团活动空间里的团队建设和主题交流。" },
+  { src: "/yangfan/optimized/yangfan-seminar.jpg", title: "专题研讨", caption: "围绕培养方案、技术工具和学生工作经验展开讨论。" },
+  { src: "/yangfan/optimized/yangfan-practice.jpg", title: "微光实践", caption: "扬帆计划赴安徽金寨支教支队的实践合影。" },
+  { src: "/yangfan/optimized/yangfan-micro-salon.jpg", title: "实践微沙龙", caption: "行前、行后交流把实践经验转化为可传承的方法。" },
+  { src: "/yangfan/optimized/yangfan-team-night.jpg", title: "扬帆小队", caption: "小队活动增强凝聚力，也保留轻松真诚的集体瞬间。" }
 ];
 
 export const artsHighlights = [

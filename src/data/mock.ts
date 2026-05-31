@@ -26,6 +26,7 @@ export const navItems = [
   { label: "文艺中心", href: "/arts" },
   { label: "体育中心", href: "/sports" },
   { label: "联络中心", href: "/liaison" },
+  { label: "扬帆计划", href: "/yangfan" },
   { label: "权发中心", href: "/development" },
   { label: "资料来源", href: "/sources" }
 ];
